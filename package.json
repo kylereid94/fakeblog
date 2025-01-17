@@ -1,0 +1,21 @@
+{
+  "name": "html-template",
+  "version": "1.0.0",
+  "description": "A project setup with Tailwind CSS and Node.js.",
+  "main": "index.html",
+  "scripts": {
+    "frameworks": "npm install -D tailwindcss && npm i -D daisyui@latest",
+    "start": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "nodejs",
+    "project-setup"
+  ],
+  "author": "Casper",
+  "license": "MIT",
+  "devDependencies": {
+    "daisyui": "^4.12.23",
+    "tailwindcss": "^3.4.17"
+  }
+}

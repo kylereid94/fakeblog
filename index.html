@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" href="/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+  </head>
+  <body class="bg-zinc-50">
+    <div id="main" class="h-screen">
+      <div id="header" class="h-20 flex items-center px-20">
+        <div id="brand" class="flex">
+          <a class="text-2xl font-extrabold"
+            ><span class="text-accent">Skill</span>Fox</a
+          >
+        </div>
+        <ul
+          class="menu menu-horizontal flex flex-grow ml-10 text-zinc-400 font-semibold"
+        >
+          <li class="active text-accent"><a>Home</a></li>
+          <li><a>Features</a></li>
+          <li><a>Courses</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Instructors</a></li>
+        </ul>
+        <div id="navButtons" class="mr-8 flex">
+          <button class="btn btn-ghost btn-circle btn-sm">
+            <i class="fi fi-rr-search"></i>
+          </button>
+          <button class="btn btn-ghost btn-circle btn-sm">
+            <i class="fi fi-rr-shopping-cart"></i>
+          </button>
+        </div>
+        <a class="mr-8 flex text-sm">Sign In</a>
+        <button class="btn btn-accent btn-sm px-6 flex">Register</button>
+      </div>
+      <div id="herocontainer" class="h-[calc(100vh-80px)] px-20 pb-20">
+        <div
+          id="hero"
+          class="w-full h-full bg-amber-100/25 bg-no-repeat bg-contain overflow-hidden rounded-3xl flex items-center p-8"
+          style="
+            background-image: url(/assets/heroimage.png);
+            background-size: 40%;
+            background-position: bottom -5% right 50px;
+          "
+        >
+          <h1 class="text-7xl font-extrabold">
+            Out<span class="text-accent">fox</span> the<br />Ordinary
+          </h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
